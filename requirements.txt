@@ -1,0 +1,10 @@
+# Add dependencies here
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn
+mlflow
+xgboost
+prophet
+imbalanced-learn
