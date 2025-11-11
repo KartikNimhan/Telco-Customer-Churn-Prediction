@@ -8,3 +8,11 @@ mlflow
 xgboost
 prophet
 imbalanced-learn
+pandas
+numpy
+scikit-learn
+xgboost
+imbalanced-learn
+streamlit
+joblib
+mlflow
