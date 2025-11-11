@@ -1,18 +1,16 @@
-# Add dependencies here
+# Data & ML
 pandas
 numpy
 scikit-learn
+xgboost
+imbalanced-learn
+prophet
+joblib
+
+# Web & APIs
 fastapi
 uvicorn
-mlflow
-xgboost
-prophet
-imbalanced-learn
-pandas
-numpy
-scikit-learn
-xgboost
-imbalanced-learn
 streamlit
-joblib
+
+# ML Experiment Tracking
 mlflow
