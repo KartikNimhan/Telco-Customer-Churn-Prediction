@@ -7,11 +7,13 @@ from src.components.model_trainer import ModelTrainer
 def test_load_data_returns_dataframe(tmp_path):
     # Create a small dummy CSV
     data = {
-        "tenure": [1, 2],
-        "MonthlyCharges": [10.0, 20.0],
-        "TotalCharges": [10.0, 20.0],
-        "Churn_encoded": [0, 1]
+        "tenure": [1, 2, 3, 4],
+        "MonthlyCharges": [10.0, 20.0, 30.0, 40.0],
+        "TotalCharges": [10.0, 20.0, 30.0, 40.0],
+        "Churn_encoded": [0, 0, 1, 1]  # 2 samples per class
     }
+
+    
     csv_file = tmp_path / "dummy.csv"
     pd.DataFrame(data).to_csv(csv_file, index=False)
 
